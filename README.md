@@ -1,6 +1,6 @@
 # MITM Automation with Bettercap and HTTPS Downgrade
 
-[Read the full write-up on Medium](https://medium.com/@amesysia/mitm-automation-with-bettercap-and-https-downgrade-4f6def6801d5])
+[Read the full write-up on Medium](https://medium.com/@amesysia/mitm-automation-with-bettercap-and-https-downgrade-4f6def6801d5)
 
 In my previous write-up, I performed an MITM attack manually. Today, I’ll explain how I automated that process using Bettercap.
 

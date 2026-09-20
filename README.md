@@ -1,5 +1,10 @@
 # MITM Automation with Bettercap and HTTPS Downgrade
 
+> [!WARNING]
+> This project was conducted in an isolated lab environment (Kali Linux + Windows VM).
+> All techniques demonstrated here are for **educational purposes only**.
+> Never perform these attacks on networks or devices you do not own or have explicit permission to test.
+
 [Read the full write-up on Medium](https://medium.com/@amesysia/mitm-automation-with-bettercap-and-https-downgrade-4f6def6801d5)
 
 In my previous write-up, I performed an MITM attack manually. Today, I’ll explain how I automated that process using Bettercap.

